@@ -1,0 +1,31 @@
+$main-dark: #202023;
+$main-accent: #816797;
+$main-white: #d4d4d4;
+
+.table-input{
+  .table-input__group{
+    .table-input__group_input{
+      color: rgba($main-white,80%);
+      background-color: rgba($main-dark,100);
+      border: $main-accent 1px solid;
+      &:focus {
+        box-shadow: 0 0 0 0.25rem rgba($main-accent, 25%);
+      }
+      &::placeholder{
+        color: rgba($main-white,80%);
+      }
+    }
+    .table-input__group_button{
+      color: rgba($main-white,80%);
+      background-color: rgba($main-dark,100);
+      border: $main-accent 1px solid;
+      &:hover{
+        color: $main-dark;
+        background-color: rgba($main-accent,100);
+      }
+      &:focus {
+        box-shadow: 0 0 0 0.25rem rgba($main-accent, 25%);
+      }
+    }
+  }
+}

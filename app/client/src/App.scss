@@ -1,0 +1,20 @@
+$main-dark: #202023;
+$main-accent: #816797;
+$main-white: #d4d4d4;
+
+body {
+  background: $main-dark;
+}
+h1, h2, h3, h4, h5, h6, a, ul, li, th, tr, td {
+  color: $main-white!important;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: $main-dark;
+  background: $main-accent;
+}
+
+::selection {
+  color: $main-dark;
+  background: $main-accent;
+}

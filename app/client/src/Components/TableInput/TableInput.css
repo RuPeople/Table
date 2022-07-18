@@ -1,0 +1,25 @@
+.table-input .table-input__group .table-input__group_input {
+  color: rgba(212, 212, 212, 0.8);
+  background-color: #202023;
+  border: #816797 1px solid;
+}
+.table-input .table-input__group .table-input__group_input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(129, 103, 151, 0.25);
+}
+.table-input .table-input__group .table-input__group_input::placeholder {
+  color: rgba(212, 212, 212, 0.8);
+}
+.table-input .table-input__group .table-input__group_button {
+  color: rgba(212, 212, 212, 0.8);
+  background-color: #202023;
+  border: #816797 1px solid;
+}
+.table-input .table-input__group .table-input__group_button:hover {
+  color: #202023;
+  background-color: #816797;
+}
+.table-input .table-input__group .table-input__group_button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(129, 103, 151, 0.25);
+}
+
+/*# sourceMappingURL=TableInput.css.map */

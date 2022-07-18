@@ -1,0 +1,30 @@
+$main-dark: #202023;
+$main-accent: #816797;
+$main-white: #d4d4d4;
+
+.page-item {
+  .page-link{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    margin: 0 8px;
+    &:hover {
+      background-color: rgba($main-accent,100);
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.25rem rgba($main-accent, 25%);
+    }
+  }
+}
+.active {
+  .page-link{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+
+    border: 2px solid $main-accent!important;
+    border-radius: 5px;
+    background-color: transparent!important;
+  }
+}

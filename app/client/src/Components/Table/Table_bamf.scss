@@ -1,0 +1,16 @@
+$main-dark: #202023;
+$main-accent: #816797;
+$main-white: #d4d4d4;
+
+.table{
+  border: $main-accent 1px solid!important;
+  border-radius: 5px;
+  thead{
+    tr{
+      border-bottom: $main-accent 2px solid!important;
+    }
+  }
+  tbody{
+    border-top: $main-accent 2px solid!important;
+  }
+}

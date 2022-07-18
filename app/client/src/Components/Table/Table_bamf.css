@@ -1,0 +1,12 @@
+.table {
+  border: #816797 1px solid !important;
+  border-radius: 5px;
+}
+.table thead tr {
+  border-bottom: #816797 2px solid !important;
+}
+.table tbody {
+  border-top: #816797 2px solid !important;
+}
+
+/*# sourceMappingURL=Table_bamf.css.map */

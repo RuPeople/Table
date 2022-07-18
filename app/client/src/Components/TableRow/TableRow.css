@@ -1,0 +1,13 @@
+.table__row {
+  color: rgba(212, 212, 212, 0.8) !important;
+}
+.table__row .table__row_button {
+  color: #d4d4d4 !important;
+  background-color: #816797 !important;
+  border-color: #816797 !important;
+}
+.table__row .table__row_button:hover {
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=TableRow.css.map */

@@ -1,0 +1,18 @@
+$main-dark: #202023;
+$main-accent: #816797;
+$main-white: #d4d4d4;
+
+
+.table__row{
+
+  color: rgba($main-white, 80%)!important;
+
+  .table__row_button{
+    color: $main-white!important;
+    background-color: $main-accent!important;
+    border-color: $main-accent!important;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
